@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.container img {
+  width: 400px;
+  height: 400px;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  margin-top: 2000px;
+}
+.container img[src] {
+  opacity: 1;
+}
